@@ -568,13 +568,14 @@ footer {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.photo-list .item .link:hover .hidden-image-text {
-    transform: translateY(0%);
-}
-
+.photo-list .item .link:hover .hidden-image-text,
 .photo-list .item .link:focus .hidden-image-text {
     transform: translateY(0%);
 }
+
+/* .photo-list .item .link:focus .hidden-image-text {
+    transform: translateY(0%);
+} */
 
 .photo-list .item {
     width: 360px;
